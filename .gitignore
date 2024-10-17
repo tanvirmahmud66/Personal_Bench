@@ -5,3 +5,4 @@ env
 files/
 sites/
 logs/
+node_modules/
