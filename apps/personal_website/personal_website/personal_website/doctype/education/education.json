@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:degree",
+ "creation": "2024-10-03 16:54:23.351919",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "degree",
+  "major",
+  "institution",
+  "start_date",
+  "end_date",
+  "grade",
+  "passing_year",
+  "board"
+ ],
+ "fields": [
+  {
+   "fieldname": "degree",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Degree",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "major",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Major",
+   "reqd": 1
+  },
+  {
+   "fieldname": "institution",
+   "fieldtype": "Data",
+   "label": "Institution"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "label": "Grade"
+  },
+  {
+   "fieldname": "passing_year",
+   "fieldtype": "Data",
+   "label": "Passing Year"
+  },
+  {
+   "fieldname": "board",
+   "fieldtype": "Data",
+   "label": "Board"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-06 10:20:40.846055",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Education",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

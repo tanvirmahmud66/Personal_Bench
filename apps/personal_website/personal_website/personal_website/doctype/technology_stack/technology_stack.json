@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 12:51:56.469234",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "technology_name",
+  "sector"
+ ],
+ "fields": [
+  {
+   "fieldname": "technology_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Technology Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sector"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-29 12:53:46.560668",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Technology Stack",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

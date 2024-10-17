@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:skill_name",
+ "creation": "2024-09-29 11:56:24.585194",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "skill_details_section",
+  "skill_name",
+  "skill_level",
+  "years_of_experiences",
+  "category",
+  "certificate",
+  "skill_description",
+  "proficiency_score",
+  "icon"
+ ],
+ "fields": [
+  {
+   "fieldname": "skill_details_section",
+   "fieldtype": "Section Break",
+   "label": "Skill Details"
+  },
+  {
+   "description": "The name of the skill (e.g., JavaScript, Python).",
+   "fieldname": "skill_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Skill Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "description": "Indicates the proficiency level in the skill.",
+   "fieldname": "skill_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Skill Level",
+   "options": "Beginner\nIntermediate\nAdvanced\nExpert",
+   "reqd": 1
+  },
+  {
+   "description": "The number of years the user has experience in this skill.",
+   "fieldname": "years_of_experiences",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Years of Experiences"
+  },
+  {
+   "description": "The category or domain of the skill.",
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Skill Category"
+  },
+  {
+   "description": "Relevant certification for the skill (e.g., AWS Certified, PMP).",
+   "fieldname": "certificate",
+   "fieldtype": "Attach",
+   "label": "Certificate"
+  },
+  {
+   "fieldname": "skill_description",
+   "fieldtype": "Small Text",
+   "label": "Skill Description"
+  },
+  {
+   "fieldname": "proficiency_score",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Proficiency Score",
+   "non_negative": 1,
+   "options": "10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n85\n90\n95\n100",
+   "reqd": 1
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Attach Image",
+   "label": "Icon"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-02 13:33:18.601419",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Skills",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,140 @@
+{
+ "app": "Personal Website",
+ "charts": [],
+ "content": "[{\"id\":\"bmCLAwJHC7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Personal Website</span>\",\"col\":12}},{\"id\":\"tDbu3nMo-A\",\"type\":\"card\",\"data\":{\"card_name\":\"Personal Informations\",\"col\":4}}]",
+ "creation": "2024-09-29 11:46:07.539528",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Personal Website",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Personal Informations",
+   "link_count": 10,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Personal Info",
+   "link_count": 0,
+   "link_to": "Personal Info",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skills",
+   "link_count": 0,
+   "link_to": "Skills",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Social Link",
+   "link_count": 0,
+   "link_to": "Social Link",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Achievements",
+   "link_count": 0,
+   "link_to": "Achievements",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 0,
+   "link_to": "Projects",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blog Posts",
+   "link_count": 0,
+   "link_to": "Blog Posts",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contact Form",
+   "link_count": 0,
+   "link_to": "Contact Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skill Category",
+   "link_count": 0,
+   "link_to": "Skill Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Experience",
+   "link_count": 0,
+   "link_to": "Experience",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Education",
+   "link_count": 0,
+   "link_to": "Education",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-10-06 10:21:10.804510",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Personal Website",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "Personal Website"
+}

@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-09-29 12:54:59.462631",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_details_section",
+  "title",
+  "description",
+  "project_images",
+  "backend_technologies",
+  "preview_link",
+  "source_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_details_section",
+   "fieldtype": "Section Break",
+   "label": "Project Details"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "project_images",
+   "fieldtype": "Table",
+   "label": "Project Images",
+   "options": "Project Images"
+  },
+  {
+   "fieldname": "backend_technologies",
+   "fieldtype": "Table",
+   "label": "Technology Stack",
+   "options": "Technology Stack"
+  },
+  {
+   "fieldname": "preview_link",
+   "fieldtype": "Data",
+   "label": "Preview Link"
+  },
+  {
+   "fieldname": "source_link",
+   "fieldtype": "Data",
+   "label": "Project Source Link (Github)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-07 15:18:10.498631",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Projects",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

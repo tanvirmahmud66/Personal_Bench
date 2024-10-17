@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:achievement_name",
+ "creation": "2024-09-29 12:42:30.797762",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_information_section",
+  "achievement_name",
+  "description",
+  "date",
+  "category",
+  "organization",
+  "certificate",
+  "score",
+  "link",
+  "is_featured"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_information_section",
+   "fieldtype": "Section Break",
+   "label": "Details Information"
+  },
+  {
+   "fieldname": "achievement_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Achievement Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "label": "Organization"
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Attach",
+   "label": "Certificate"
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Int",
+   "label": "Score"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Data",
+   "label": "Link"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_featured",
+   "fieldtype": "Check",
+   "label": "Is Featured"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-29 14:05:16.810240",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Achievements",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

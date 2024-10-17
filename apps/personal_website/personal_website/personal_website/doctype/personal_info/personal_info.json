@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 11:52:05.853784",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personal_informations_section",
+  "full_name",
+  "designation",
+  "work_experience",
+  "bio",
+  "profile_picture",
+  "date_of_birth",
+  "personal_email_address",
+  "official_email_address",
+  "contact_number_1",
+  "contact_number_2",
+  "present_address",
+  "permanent_address"
+ ],
+ "fields": [
+  {
+   "fieldname": "personal_informations_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Informations"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Small Text",
+   "label": "Bio"
+  },
+  {
+   "fieldname": "profile_picture",
+   "fieldtype": "Attach Image",
+   "label": "Profile Picture"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "personal_email_address",
+   "fieldtype": "Data",
+   "label": "Personal Email Address"
+  },
+  {
+   "fieldname": "official_email_address",
+   "fieldtype": "Data",
+   "label": "Official Email Address"
+  },
+  {
+   "fieldname": "contact_number_1",
+   "fieldtype": "Data",
+   "label": "Contact Number 1"
+  },
+  {
+   "fieldname": "contact_number_2",
+   "fieldtype": "Data",
+   "label": "Contact Number 2"
+  },
+  {
+   "fieldname": "present_address",
+   "fieldtype": "Small Text",
+   "label": "Present Address"
+  },
+  {
+   "fieldname": "permanent_address",
+   "fieldtype": "Small Text",
+   "label": "Permanent Address"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "work_experience",
+   "fieldtype": "Int",
+   "label": "Work Experience (If have)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-09-30 12:47:39.511053",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Personal Info",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

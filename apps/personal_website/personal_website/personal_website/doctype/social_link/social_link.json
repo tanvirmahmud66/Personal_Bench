@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:platform",
+ "creation": "2024-09-29 12:39:37.201819",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "social_link_section",
+  "platform",
+  "url",
+  "icon"
+ ],
+ "fields": [
+  {
+   "fieldname": "social_link_section",
+   "fieldtype": "Section Break",
+   "label": "Social Link"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "URL"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Attach Image",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "platform",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Platform",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-30 16:07:05.127546",
+ "modified_by": "Administrator",
+ "module": "Personal Website",
+ "name": "Social Link",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
